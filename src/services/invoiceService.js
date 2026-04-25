@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:8080/api/invoice";
+const API_URL = "https://invoice-generator-backend-xym5.onrender.com/api/invoice";
 
 export const generateInvoice = async (data) => {
   const response = await axios.post(
